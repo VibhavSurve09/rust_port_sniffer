@@ -29,14 +29,12 @@ impl Arguments {
                     let threads_or_ip_clone = threads_or_ip.clone();
                     match threads_or_ip.unwrap().parse::<u16>() {
                         Ok(num_threads) => {
-                            let number_of_threads: u16 =
-                                args.next().unwrap().trim().parse::<u16>().unwrap();
                             // args.next() returns an Option type and to extract value from it we use unwrap method and it returns String type
                             if let Ok(ip) = IpAddr::from_str(args.next().unwrap().as_str()) {
                                 return Ok(Arguments {
                                     flag: String::from(flag),
                                     ip_address: ip,
-                                    thread: number_of_threads,
+                                    thread: num_threads,
                                 });
                             };
                         }
