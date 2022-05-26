@@ -26,7 +26,7 @@ Here
 Main motive behind making this project was to create a CLI application after reading the [book](https://doc.rust-lang.org/book/).
 Various concepts were used like multithreading, pattern matching, working with TCP etc.
 
-Specail Thanks to [Tensor Programming](https://www.youtube.com/watch?v=-Jp7sabBCp4&list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb&ab_channel=TensorProgramming)
+Special Thanks to [Tensor Programming](https://www.youtube.com/watch?v=-Jp7sabBCp4&list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb&ab_channel=TensorProgramming)
 for such amazing tutorial.
 
 
