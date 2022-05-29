@@ -74,7 +74,6 @@ impl Arguments {
                 .is_ok()
             {
                 print!(".");
-                //Not completely understood what flush does
                 //https://doc.rust-lang.org/std/io/trait.Write.html#tymethod.flush
                 io::stdout().flush().unwrap();
                 tx.send(port).unwrap();
